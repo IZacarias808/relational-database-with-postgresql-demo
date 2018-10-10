@@ -3,13 +3,13 @@
 ## What is a database?
 - A set of data stored in a computer
 - Structured in a way that is easily accessible
- - ex.
-  - username
-  - password
-  - title
-  - description
-  - prices
-  - products
+  - ex.
+    - username
+    - password
+    - title
+    - description
+    - prices
+    - products
   
 ## What is a relational database?
 - A type of database
