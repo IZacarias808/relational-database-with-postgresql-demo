@@ -13,10 +13,52 @@
   
 ## What is a relational database?
 - A type of database
-- Structured so that it allows us to identify and access data in relation to another piece of data in another table
+- Structured so that it allows us to identify and access data in relation to another piece of data from another table
 - Database is made up of `tables`
   - A table can have many `rows`, also know as `records`
   - A table can have many `columns` with specific data types
+
+## What is PostgreSQL?
+- 1 of many relational database management system(RDBMS)
+- MySQL, SQLite, Microsoft SQL Lite Server, MariaDB
+- Allows you READ, CREATE, UPDATE, and DELETE using SQL language to access the database
+
+## What is SQL?
+- Structured Query Language(SQL) is a programming used to communicate with data stored in the RDBMS.
+- Written similar to the English language
+
+## Live Code
+### Installation
+- Install Postgres for Windows https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+  - Select version `9.6.10`
+  - Select operating system `Windows x86-64`
+  
+### Create User and Database
+- Open up your postgreSQL Terminal
+- Create a user with password - https://www.postgresql.org/docs/9.6/static/sql-createuser.html
+- Always end statement with `;`
+- List all users `\du`
+- Create database and attach user to that database - https://www.postgresql.org/docs/9.6/static/sql-createdatabase.html
+- Check databases `\l`
+
+### Create a table
+- Connect into your newly created database `\c your_database_name;`
+- Create a table - https://www.postgresql.org/docs/9.6/static/sql-createtable.html
+- PostgreSQL data types - https://www.postgresql.org/docs/9.6/static/datatype.html
+- List all tables `\dt`
+
+### Querying table
+- Select command - https://www.postgresql.org/docs/9.6/static/sql-select.html
+- Select all from a table `SELECT * FROM table_name;`
+- Should be able to see all columns from your newly created table
+
+### Insert data into table
+- Insert data from the table - https://www.postgresql.org/docs/9.6/static/dml-insert.html
+- Can select specific colunmn from table `SELECT * FROM table_name WHERE id = 1;`
+
+### Drop Database and User
+- Drop database - https://www.postgresql.org/docs/9.6/static/sql-dropdatabase.html
+- Drop user - https://www.postgresql.org/docs/9.6/static/sql-dropuser.html
   
 ## Types of relational databases
 #### One-to-One
@@ -39,14 +81,7 @@
 
 ![one-to-many](https://i.imgur.com/PHJcJT6.png?1)
 
-## What is PostgreSQL?
-- 1 of many relational database management system(RDBMS)
-- MySQL, SQLite, Microsoft SQL Lite Server, MariaDB
-- Allows you READ, CREATE, UPDATE, and DELETE using SQL language to access the database
 
-## What is SQL?
-- Structured Query Language(SQL) is a programming used to communicate with data stored in the RDBMS.
-- Written similar to the English language
 
 
 
