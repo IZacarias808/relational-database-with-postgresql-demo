@@ -110,7 +110,9 @@
 ## Resources
 [PostgreSQL 9.6 Documentation](https://www.postgresql.org/docs/9.6/static/index.html)
 
-[Database Relationships](https://database.guide/the-3-types-of-relationships-in-database-design/)
+[Relational Database](https://database.guide/the-3-types-of-relationships-in-database-design/)
+
+[Relational Database Design](http://www.ntu.edu.sg/home/ehchua/programming/sql/relational_database_design.html)
 
 
 
