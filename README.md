@@ -94,6 +94,7 @@
 - Lastly, entities can also have a many-to-many relationship. Let’s say you have a list of books, and a list of authors—each book may have one or more authors, and each author may have written multiple books. In this case, you have many books related to many authors.
 
 ![many-to-many](https://i.imgur.com/XJQSZje.png?1)
+
 ![many-to-many-junction-table](https://i.imgur.com/NwMRbEE.png?1)
 ![many-to-many-uml](https://i.imgur.com/gev6KEs.png?1)
 
