@@ -63,23 +63,41 @@
 ## Types of relational databases
 #### One-to-One
 - The simplest kind of relationship is a one-to-one relationship. Suppose you have a list of people’s names, and a list of social security numbers. Each person has only one social security number, and each social security number is linked to one person
+
+![one-to-one](https://i.imgur.com/wEkbLRR.png?2)
+![one-to-one-uml](https://i.imgur.com/PVqrj8E.png)
 - ex.
   - People-Passports (Each person has only one passport from a particular country and each passport is intended for only one person.)
   - Country-Flag (Each country has only one flag and each flag belongs to only one country.)
   - Spousal Relationships (Each person has only one spouse.)
   
 
-![one-to-one](https://i.imgur.com/wEkbLRR.png?2)
+
 
 
 #### One-to-Many
 - A more complex (but also far more common) type of relationship is one-to-many/many-to-one. For example, if you have a list of works of art and a list of museums, each work of art can only be in one museum at a time, but each museum can have many works of art.
+![one-to-many](https://i.imgur.com/PHJcJT6.png?1)
+![one-to-many-uml](https://i.imgur.com/lozOXoX.png)
 - ex. 
   - People-Addresses (Each person can live at one address, but each address can house one or more people.)
   - Owners-Pets (Each pet has one owner, but each owner can have one or more pets.)
   - Farmer-Equipment (Each piece of farming equipment is owned by one farmer, but each farmer can own many pieces of equipment.)
 
-![one-to-many](https://i.imgur.com/PHJcJT6.png?1)
+
+#### Many-to-Many
+- Lastly, entities can also have a many-to-many relationship. Let’s say you have a list of books, and a list of authors—each book may have one or more authors, and each author may have written multiple books. In this case, you have many books related to many authors.
+
+![many-to-many](https://i.imgur.com/XJQSZje.png?1)
+![many-to-many-junction-table](https://i.imgur.com/NwMRbEE.png?1)
+![many-to-many-uml](https://i.imgur.com/NwMRbEE.png?1)
+- ex.
+  - Ingredients-Recipes (Each food item can be used in multiple recipes and each recipe requires multiple ingredients.)
+  - Doctors-Patients (Each doctor sees many patients and each patient sees many doctors.)
+  - Employees-Tasks (Each employee works on many tasks at a time while each task is being worked on by one or more employees.)
+  - Customers-Products (Each customer can purchase many products, and each of those products can be purchased by many different customers.)
+  
+  
 
 
 
