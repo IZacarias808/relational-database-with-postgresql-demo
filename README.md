@@ -46,6 +46,7 @@
 - Create a table - https://www.postgresql.org/docs/9.6/static/sql-createtable.html
 - PostgreSQL data types - https://www.postgresql.org/docs/9.6/static/datatype.html
 - List all tables `\dt`
+- Describe table `\d table_name`
 
 ### Querying table
 - Select command - https://www.postgresql.org/docs/9.6/static/sql-select.html
