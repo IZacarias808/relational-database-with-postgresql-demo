@@ -60,6 +60,9 @@
 ### Drop Database and User
 - Drop database - https://www.postgresql.org/docs/9.6/static/sql-dropdatabase.html
 - Drop user - https://www.postgresql.org/docs/9.6/static/sql-dropuser.html
+
+## Normalization
+Database normalization is process used to organize a database into tables and columns.  The idea is that a table should be about a specific topic and that only those columns which support that topic are included. 
   
 ## Types of relational databases
 #### One-to-One
@@ -110,6 +113,8 @@
 
 ## Resources
 [PostgreSQL 9.6 Documentation](https://www.postgresql.org/docs/9.6/static/index.html)
+
+[Normalization](https://www.essentialsql.com/get-ready-to-learn-sql-10-database-second-normal-form-explained-in-simple-english/)
 
 [Relational Database](https://database.guide/the-3-types-of-relationships-in-database-design/)
 
