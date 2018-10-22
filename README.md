@@ -114,7 +114,7 @@ Database normalization is process used to organize a database into tables and co
 ## Resources
 [PostgreSQL 9.6 Documentation](https://www.postgresql.org/docs/9.6/static/index.html)
 
-[Normalization](https://www.essentialsql.com/get-ready-to-learn-sql-10-database-second-normal-form-explained-in-simple-english/)
+[Normalization](https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/)
 
 [Relational Database](https://database.guide/the-3-types-of-relationships-in-database-design/)
 
