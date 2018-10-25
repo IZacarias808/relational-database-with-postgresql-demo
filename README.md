@@ -29,23 +29,20 @@
 
 ## Live Code
 ### Installation
-- Install Postgres for Mac(2 ways to install)
+- Install Postgres for **Mac**(2 ways to install)
   - Option 1: Download through PostgreSQL website https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
     - Select version `9.6.10`
     
   - Option 2: Hombrew `brew install postgres`
   
-- Install Postgres for Windows https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+- Install Postgres for **Windows** https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
   - Select version `9.6.10`
   - Select operating system `Windows x86-64`
   
   
 ### Accessing PostgreSQL Shell(psql)
-- Windows:
-  - Windows Start Menu Button -> All Programs -> PostgreSQL 9.6 -> SQL Shell(psql)
-
-- Mac:
-  - Type in `psql` in your terminal
+- **Windows:** Windows Start Menu Button -> All Programs -> PostgreSQL 9.6 -> SQL Shell(psql)
+- **Mac:** Type in `psql` in your terminal
 
 ### Create User and Database
 - Open up your postgreSQL Terminal
