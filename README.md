@@ -30,8 +30,10 @@
 ## Live Code
 ### Installation
 - Install Postgres for Mac(2 ways to install)
-  1. Download through PostgreSQL website https://www.postgresql.org/download/macosx/
-  2. Hombrew `brew install postgres`
+  - Option 1: Download through PostgreSQL website https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+    - Select version `9.6.10`
+    
+  - Option 2: Hombrew `brew install postgres`
   
 - Install Postgres for Windows https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
   - Select version `9.6.10`
