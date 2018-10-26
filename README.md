@@ -77,7 +77,7 @@
 
 ### Update data in table
 - Update data from the table - https://www.postgresql.org/docs/9.6/static/sql-update.html 
-- Example use - https://www.tutorialspoint.com/postgresql/postgresql_delete_query.htm
+- Example use - https://www.tutorialspoint.com/postgresql/postgresql_update_query.htm
 
 ### Delete data in table
 - Delete data from the table - https://www.postgresql.org/docs/9.6/static/sql-delete.html 
