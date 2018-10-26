@@ -27,6 +27,13 @@
 - Structured Query Language(SQL) is a programming used to communicate with data stored in the RDBMS.
 - Written similar to the English language
 
+## CRUD Operations
+  - 4 basic functionality 
+    - **CREATE:** INSERT
+    - **READ:** SELECT
+    - **UPDATE:** UPDATE
+    - **DELETE:** DELETE
+
 ## Live Code
 ### Installation
 - Install Postgres for **Mac**(2 ways to install)
@@ -59,14 +66,22 @@
 - List all tables `\dt`
 - Describe table `\d table_name`
 
-### Querying table
+### Select/Querying in table
 - Select command - https://www.postgresql.org/docs/9.6/static/sql-select.html
 - Select all from a table `SELECT * FROM table_name;`
 - Should be able to see all columns from your newly created table
 
-### Insert data into table
+### Insert data in table
 - Insert data from the table - https://www.postgresql.org/docs/9.6/static/dml-insert.html
 - Can select specific colunmn from table `SELECT * FROM table_name WHERE id = 1;`
+
+### Update data in table
+- Update data from the table - https://www.postgresql.org/docs/9.6/static/sql-update.html 
+- Example use - https://www.tutorialspoint.com/postgresql/postgresql_update_query.html
+
+### Delete data in table
+- Delete data from the table - https://www.postgresql.org/docs/9.6/static/sql-delete.html 
+- Example use - https://www.tutorialspoint.com/postgresql/postgresql_delete_query.htm
 
 ### Drop Database and User
 - Drop database - https://www.postgresql.org/docs/9.6/static/sql-dropdatabase.html
