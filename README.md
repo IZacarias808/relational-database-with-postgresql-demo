@@ -77,7 +77,7 @@
 
 ### Update data in table
 - Update data from the table - https://www.postgresql.org/docs/9.6/static/sql-update.html 
-- Example use - https://www.tutorialspoint.com/postgresql/postgresql_update_query.html
+- Example use - https://www.tutorialspoint.com/postgresql/postgresql_delete_query.htm
 
 ### Delete data in table
 - Delete data from the table - https://www.postgresql.org/docs/9.6/static/sql-delete.html 
@@ -85,7 +85,7 @@
 
 ### Drop Database and User
 - Drop database - https://www.postgresql.org/docs/9.6/static/sql-dropdatabase.html
-- Drop user - https://www.postgresql.org/docs/9.6/static/sql-dropuser.html
+- Drop user - https://www.tutorialspoint.com/postgresql/postgresql_update_query.htm
 
 ## Normalization
 Database normalization is process used to organize a database into tables and columns.  The idea is that a table should be about a specific topic and that only those columns which support that topic are included. 
